@@ -1,0 +1,12 @@
+ERROR - 2022-04-27 00:15:27 --> Error connecting to the database: No route to host
+CRITICAL - 2022-04-27 00:15:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No route to host
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/BaseModel.php(68): CodeIgniter\Database\BaseConnection->query()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/PagesModel.php(33): App\Models\BaseModel->ExecuteQueryAllResults()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(25): App\Models\PagesModel->GetFilms()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

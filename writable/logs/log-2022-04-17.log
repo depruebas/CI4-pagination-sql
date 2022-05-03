@@ -1,0 +1,342 @@
+CRITICAL - 2022-04-17 00:07:19 --> Undefined property: App\Controllers\HomeController::$uri
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 00:13:02 --> Call to undefined method CodeIgniter\HTTP\URI::segments()
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-17 00:13:09 --> Undefined property: CodeIgniter\HTTP\URI::$segment
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 00:13:19 --> Cannot access protected property CodeIgniter\HTTP\URI::$segments
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-17 00:31:28 --> Undefined variable: request
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-17 01:07:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1' offset '10'' at line 2
+CRITICAL - 2022-04-17 01:07:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1' offset '10'' at line 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/BaseModel.php(68): CodeIgniter\Database\BaseConnection->query()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/PagesModel.php(38): App\Models\BaseModel->ExecuteQueryAllResults()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(18): App\Models\PagesModel->GetFilms()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-17 01:08:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '10'' at line 2
+CRITICAL - 2022-04-17 01:08:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '10'' at line 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/BaseModel.php(68): CodeIgniter\Database\BaseConnection->query()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/PagesModel.php(38): App\Models\BaseModel->ExecuteQueryAllResults()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(18): App\Models\PagesModel->GetFilms()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-17 01:08:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '10'' at line 2
+CRITICAL - 2022-04-17 01:08:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '10'' at line 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/BaseModel.php(68): CodeIgniter\Database\BaseConnection->query()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/PagesModel.php(38): App\Models\BaseModel->ExecuteQueryAllResults()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(18): App\Models\PagesModel->GetFilms()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-17 01:09:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '10'' at line 2
+CRITICAL - 2022-04-17 01:09:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '10'' at line 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/BaseModel.php(68): CodeIgniter\Database\BaseConnection->query()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/PagesModel.php(38): App\Models\BaseModel->ExecuteQueryAllResults()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(19): App\Models\PagesModel->GetFilms()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-17 01:10:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '10'' at line 2
+CRITICAL - 2022-04-17 01:10:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '10'' at line 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/BaseModel.php(68): CodeIgniter\Database\BaseConnection->query()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/PagesModel.php(38): App\Models\BaseModel->ExecuteQueryAllResults()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(18): App\Models\PagesModel->GetFilms()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-17 01:11:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '0'' at line 2
+CRITICAL - 2022-04-17 01:11:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '0'' at line 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/BaseModel.php(68): CodeIgniter\Database\BaseConnection->query()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/PagesModel.php(38): App\Models\BaseModel->ExecuteQueryAllResults()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(18): App\Models\PagesModel->GetFilms()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-17 01:13:12 --> Trying to access array offset on value of type int
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-17 01:13:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '0'' at line 2
+CRITICAL - 2022-04-17 01:13:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '0'' at line 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/BaseModel.php(68): CodeIgniter\Database\BaseConnection->query()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/PagesModel.php(38): App\Models\BaseModel->ExecuteQueryAllResults()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(18): App\Models\PagesModel->GetFilms()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-17 01:13:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '0'' at line 2
+CRITICAL - 2022-04-17 01:13:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '0'' at line 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/BaseModel.php(68): CodeIgniter\Database\BaseConnection->query()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/PagesModel.php(38): App\Models\BaseModel->ExecuteQueryAllResults()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(18): App\Models\PagesModel->GetFilms()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-17 01:13:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '0'' at line 2
+CRITICAL - 2022-04-17 01:13:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '0'' at line 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/BaseModel.php(68): CodeIgniter\Database\BaseConnection->query()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/PagesModel.php(38): App\Models\BaseModel->ExecuteQueryAllResults()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(18): App\Models\PagesModel->GetFilms()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-17 01:13:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '0'' at line 2
+CRITICAL - 2022-04-17 01:13:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''15' offset '0'' at line 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/BaseModel.php(68): CodeIgniter\Database\BaseConnection->query()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/PagesModel.php(38): App\Models\BaseModel->ExecuteQueryAllResults()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(18): App\Models\PagesModel->GetFilms()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-17 01:14:00 --> Undefined offset: 1
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 01:14:01 --> Undefined offset: 1
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 01:14:01 --> Undefined offset: 1
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 01:14:01 --> Undefined offset: 1
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 01:14:01 --> Undefined offset: 1
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 01:57:08 --> Undefined variable: count_pages
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Views/web/index.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(210): include('/home/depruebas...')
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Helpers/Layout_helper.php(10): view()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(40): renderView()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-17 03:53:46 --> Array to string conversion
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Views/web/index.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(210): include('/home/depruebas...')
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Helpers/Layout_helper.php(10): view()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(40): renderView()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-17 03:53:55 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 132136960 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-17 03:55:51 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65028096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-17 04:03:27 --> Undefined variable: offset
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Views/web/index.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(210): include('/home/depruebas...')
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Helpers/Layout_helper.php(10): view()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(40): renderView()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-17 04:51:13 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-17 04:53:30 --> Undefined variable: decrease
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Views/web/index.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(210): include('/home/depruebas...')
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Helpers/Layout_helper.php(10): view()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(40): renderView()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-17 05:03:31 --> Undefined variable: offset
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Views/web/index.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(210): include('/home/depruebas...')
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Helpers/Layout_helper.php(10): view()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(40): renderView()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-17 10:43:05 --> syntax error, unexpected ''">Siguiente</a>' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Helpers/Layout_helper.php(10): view()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(40): renderView()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-17 10:56:43 --> Undefined index: acutal_page
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Views/web/index.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(210): include('/home/depruebas...')
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Helpers/Layout_helper.php(10): view()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(40): renderView()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-17 10:56:52 --> Undefined index: acutal_page
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Views/web/index.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(210): include('/home/depruebas...')
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Helpers/Layout_helper.php(10): view()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(40): renderView()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-17 13:49:41 --> Undefined offset: 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 13:50:00 --> Undefined offset: 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 13:50:07 --> Undefined offset: 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 13:54:40 --> Undefined offset: 2
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 13:58:14 --> Call to undefined function App\Controllers\explde()
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

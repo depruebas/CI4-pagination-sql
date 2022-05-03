@@ -1,0 +1,61 @@
+CRITICAL - 2022-04-16 04:55:26 --> Call to undefined method Config\Database::GetDBConnection()
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Models/PagesModel.php(14): App\Models\BaseModel->__construct()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/BaseController.php(53): App\Models\PagesModel->__construct()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(810): App\Controllers\BaseController->initController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-16 05:01:17 --> Undefined property: App\Controllers\HomeController::$pagePosts
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 13:18:13 --> Cannot use object of type stdClass as array
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(210): include()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Helpers/Layout_helper.php(10): view()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(25): renderView()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-16 13:55:27 --> syntax error, unexpected ';'
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/BaseController.php(53): spl_autoload_call()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(810): App\Controllers\BaseController->initController()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-16 13:56:24 --> Cannot use object of type stdClass as array
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(13): App\Models\PagesModel->GetFilms()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-16 23:39:03 --> Unsupported operand types
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-16 23:39:27 --> Undefined index: fieldsNames
+#0 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Views/web/index.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(210): include('/home/depruebas...')
+#2 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Helpers/Layout_helper.php(10): view()
+#5 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/app/Controllers/HomeController.php(28): renderView()
+#6 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(832): App\Controllers\HomeController->index()
+#7 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/depruebas/datos/Dropbox/AdyMaNet/Proyectos/NewsDevs/articulos/paginacion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
