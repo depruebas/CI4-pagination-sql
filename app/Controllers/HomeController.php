@@ -60,6 +60,13 @@ class HomeController extends BaseController
 
   public function otherparam()
   {
+    # Instanciamos la clase de paginación y llamamos al metodo que
+    # parsea y analiza la url que viene en el siguiente formato:
+    # 
+    #     http://paginacion.local/list-custom?page=10-20-3
+    #
+    # Lo que va detras del ? es la sevuencia de paginación que se traducen 
+    # en 10 (limit) 20(offset) 3(pagina actual)
     $paging = new CustomPaging(); 
     $paging_parsed = $paging->GetPagingData( $this->request->getUri());
 
@@ -68,10 +75,12 @@ class HomeController extends BaseController
     $offset = (int) $paging_parsed['query_string'][1];
     $actual_page = (int) $paging_parsed['query_string'][2];
     
-    # Obtenemos los registros de la base de datos paginados
+    # Obtenemos los registros de la base de datos ya paginados, solo obtenemos
+    # el número que hemos pedido en Limit y la pagina en que estamos con el offset
     $rows =  $this->pagesModel->GetCustomer( $limit, $offset);
 
-    # Obtenemos el numero de páginas
+    # Obtenemos el numero de páginas, esto nos va bien para saber cuando llegamos
+    # al final y deshabilitar los botones siguiente y último
     $pages = ceil($rows['count'] / $limit);
 
     $data = [
